@@ -13,6 +13,7 @@
 		930E4DD4256C7CD200828C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930E4DD2256C7CD200828C69 /* Main.storyboard */; };
 		930E4DD6256C7CD500828C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930E4DD5256C7CD500828C69 /* Assets.xcassets */; };
 		930E4DD9256C7CD500828C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930E4DD7256C7CD500828C69 /* LaunchScreen.storyboard */; };
+		938AD805257531B5002F2902 /* Lowpoly_tree_sample.scn in Resources */ = {isa = PBXBuildFile; fileRef = 938AD804257531B5002F2902 /* Lowpoly_tree_sample.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		930E4DD5256C7CD500828C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930E4DD8256C7CD500828C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930E4DDA256C7CD500828C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938AD804257531B5002F2902 /* Lowpoly_tree_sample.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Lowpoly_tree_sample.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		930E4DCB256C7CD200828C69 /* 3DDemo */ = {
 			isa = PBXGroup;
 			children = (
+				938AD803257531AB002F2902 /* Resource */,
 				930E4DCC256C7CD200828C69 /* AppDelegate.swift */,
 				930E4DCE256C7CD200828C69 /* SceneDelegate.swift */,
 				930E4DD0256C7CD200828C69 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				930E4DDA256C7CD500828C69 /* Info.plist */,
 			);
 			path = 3DDemo;
+			sourceTree = "<group>";
+		};
+		938AD803257531AB002F2902 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				938AD804257531B5002F2902 /* Lowpoly_tree_sample.scn */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				930E4DD9256C7CD500828C69 /* LaunchScreen.storyboard in Resources */,
 				930E4DD6256C7CD500828C69 /* Assets.xcassets in Resources */,
 				930E4DD4256C7CD200828C69 /* Main.storyboard in Resources */,
+				938AD805257531B5002F2902 /* Lowpoly_tree_sample.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
